@@ -20,9 +20,6 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(
           create: (context) => Homescreencontroller(),
         ),
-        ChangeNotifierProvider(
-          create: (context) => SearchScreenController(),
-        )
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
